@@ -1,6 +1,7 @@
 use clap::Parser;
 
 mod day_1;
+mod day_2;
 
 #[derive(Parser)]
 enum Command {
@@ -14,4 +15,6 @@ fn main() {
 
     day_1::problem_1();
     day_1::problem_2();
+    day_2::problem_1();
+    day_2::problem_2();
 }
