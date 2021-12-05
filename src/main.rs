@@ -4,6 +4,7 @@ mod day_1;
 mod day_2;
 mod day_3;
 mod day_4;
+mod day_5;
 
 #[derive(Parser)]
 enum Command {
@@ -23,4 +24,6 @@ fn main() {
     day_3::problem_2();
     day_4::problem_1();
     day_4::problem_2();
+    day_5::problem_1();
+    day_5::problem_2();
 }
