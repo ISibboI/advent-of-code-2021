@@ -1,6 +1,6 @@
 use std::fs::File;
 use std::io::{BufRead, BufReader};
-use varisat::{ExtendFormula, Lit, ProofFormat, Solver};
+use varisat::{ExtendFormula, Lit, Solver};
 
 pub fn problem_1() {
     let result: usize = BufReader::new(File::open("inputs/8.txt").unwrap())
@@ -69,7 +69,6 @@ pub fn problem_2() {
         let all_chars = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
 
         let mut solver = Solver::new();
-        //solver.write_proof(std::io::stdout(), ProofFormat::Drat);
 
         for from in all_chars {
             // Each char needs to be mapped
