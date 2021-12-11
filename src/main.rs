@@ -2,6 +2,7 @@ use clap::Parser;
 
 mod day_1;
 mod day_10;
+mod day_11;
 mod day_2;
 mod day_3;
 mod day_4;
@@ -41,4 +42,6 @@ fn main() {
     day_9::problem_2();
     day_10::problem_1();
     day_10::problem_2();
+    day_11::problem_1();
+    day_11::problem_2();
 }
