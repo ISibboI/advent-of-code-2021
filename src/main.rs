@@ -5,6 +5,7 @@ mod day_10;
 mod day_11;
 mod day_12;
 mod day_13;
+mod day_14;
 mod day_2;
 mod day_3;
 mod day_4;
@@ -50,4 +51,6 @@ fn main() {
     day_12::problem_2();
     day_13::problem_1();
     day_13::problem_2();
+    day_14::problem_1();
+    day_14::problem_2();
 }
